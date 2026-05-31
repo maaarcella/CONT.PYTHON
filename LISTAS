@@ -1,0 +1,25 @@
+nomes = []
+
+nomes.append("Vitor")
+nomes.append("Neto")
+nomes.append("Gustavo")
+
+print(nomes) #é listado de forma geral e em formato de lista
+print(nomes[0]) #sera listado apenas a pessoa vitor
+print(nomes [1])# sera listado apenas o nome do Neto
+print(nomes[2])# sera listado apenas a pessoa Gustavo
+
+print("-------------------------------")
+
+for sena in nomes:
+    print("O nome da pessoa é: ", sena)
+
+nomes.remove("Gustavo")#exluir item pela valor
+
+for sena in nomes:
+    print("O nome da pessoa é: ", sena)
+
+del nomes[1]#excluir pelo indice 
+
+for sena in nomes:
+    print("O nome da pessoa é: ", sena)
